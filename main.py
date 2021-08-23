@@ -38,7 +38,7 @@ def get_report(analytics):
       body={
         'reportRequests': [
         {
-          'viewId': VIEW_ID,
+          'viewId': VIEW_ID, #HERE YOU PASS SPECIFIC METRICS AND DIMENSIONS YOU ARE INTERESTED IN
           'dateRanges': [{'startDate': '2021-04-01', 'endDate': 'today'}],
           'metrics': [{'expression': 'ga:totalValue'},
                       # {'expression': 'ga:transactionRevenue'},

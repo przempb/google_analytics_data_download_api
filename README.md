@@ -2,7 +2,7 @@
 A bit optimized way of downloading Google Analytics data to excel spreadsheet.
 Most of the source code comes from Google Analytics API documentation: https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py
 
-How to get authorization?
+How to get an authorization?
 1. Log in to Google Cloud Platform.
 2. Go to APIs & Services. From Library enable Google Analytics API.
 3. Go to IAM & Admin > Service accounts. Create new service account.

@@ -6,7 +6,7 @@ import pandas as pd
 
 
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
-KEY_FILE_LOCATION = 'credentials.json'
+KEY_FILE_LOCATION = 'credentials.json' #deliver your credentials.json file from Google Cloud Platrofm IAM - more info in readme file
 VIEW_ID = 'PASS HERE YOUR GOOGLE ANALYTICS VIEW ID'
 
 
